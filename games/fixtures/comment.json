@@ -20,5 +20,49 @@
             "like": 5,
             "game": 1
         }
+    },
+    {
+        "model": "games.comment",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "message": "Very hearfult storyline",
+            "created_date": "2011-04-02",
+            "like": 7,
+            "game": 2
+        }
+    },
+    {
+        "model": "games.comment",
+        "pk": 4,
+        "fields": {
+            "user": 3,
+            "message": "Fantastic battle system!",
+            "created_date": "2011-04-02",
+            "like": 10,
+            "game": 2
+        }
+    },
+    {
+        "model": "games.comment",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "message": "A little Goofy for my likes",
+            "created_date": "2011-04-02",
+            "like": 4,
+            "game": 2
+        }
+    },
+    {
+        "model": "games.comment",
+        "pk": 6,
+        "fields": {
+            "user": 3,
+            "message": "Single player is way too short.",
+            "created_date": "2011-04-02",
+            "like": 8,
+            "game": 3
+        }
     }
 ]

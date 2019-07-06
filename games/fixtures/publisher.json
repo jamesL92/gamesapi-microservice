@@ -5,5 +5,19 @@
       "fields": {
         "name": "Sony"
       }
+    },
+    {
+      "model": "games.Publisher",
+      "pk": 2,
+      "fields": {
+        "name": "Square Enix"
+      }
+    },
+    {
+      "model": "games.Publisher",
+      "pk": 3,
+      "fields": {
+        "name": "Activision"
+      }
     }
 ]

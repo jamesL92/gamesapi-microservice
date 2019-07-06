@@ -5,5 +5,19 @@
         "fields": {
             "name": "PS4"
         }
+    },
+    {
+        "model": "games.Platform",
+        "pk": 2,
+        "fields": {
+            "name": "XBox One"
+        }
+    },
+    {
+        "model": "games.Platform",
+        "pk": 4,
+        "fields": {
+            "name": "PC"
+        }
     }
 ]

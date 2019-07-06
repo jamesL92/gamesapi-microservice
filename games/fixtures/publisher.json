@@ -1,0 +1,9 @@
+[
+    {
+      "model": "games.Publisher",
+      "pk": 1,
+      "fields": {
+        "name": "Sony"
+      }
+    }
+  ]

@@ -12,6 +12,7 @@ class CommentSerializer(serializers.ModelSerializer):
             'dateCreated',
             'like'
         )
+        read_only_fields = fields
 
 class GameSerializer(serializers.ModelSerializer):
 
@@ -30,3 +31,4 @@ class GameSerializer(serializers.ModelSerializer):
             'platform',
             'comments',
         )
+        read_only_fields = fields

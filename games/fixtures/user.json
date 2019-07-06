@@ -1,0 +1,38 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "password1",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "bob",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-06T18:33:40.901Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "superSecurePassword123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "testingPriest",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-06T18:33:40.901Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

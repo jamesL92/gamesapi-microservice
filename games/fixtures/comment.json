@@ -1,0 +1,24 @@
+[
+    {
+        "model": "games.comment",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "message": "Cracking game far too much cinematic",
+            "created_date": "2011-01-03",
+            "like": 6,
+            "game": 1
+        }
+    },
+    {
+        "model": "games.comment",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "message": "Not enough shooting for me,far too easy ",
+            "created_date": "2011-04-02",
+            "like": 5,
+            "game": 1
+        }
+    }
+]

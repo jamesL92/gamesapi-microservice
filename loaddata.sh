@@ -1,0 +1,1 @@
+python manage.py loaddata comments game platform publisher user

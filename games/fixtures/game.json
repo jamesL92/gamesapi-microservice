@@ -1,0 +1,9 @@
+[
+  {
+    "model": "games.game",
+    "pk": 1,
+    "fields": {
+      "name": "Call of Duty"
+    }
+  }
+]

@@ -24,3 +24,6 @@ class Comment(models.Model):
     created_date = models.DateField(default=timezone.now)
     like = models.PositiveIntegerField(default=0)
     game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name='comments')
+
+    class Meta:
+        ordering = ['created_date']

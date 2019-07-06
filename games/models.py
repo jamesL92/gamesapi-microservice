@@ -3,6 +3,9 @@ from django.db import models
 class Publisher(models.Model):
     name = models.CharField(max_length=30)
 
+class Platform(models.Model):
+    name = models.CharField(max_length=20)
+
 # Create your models here.
 class Game(models.Model):
     name = models.CharField(max_length=30)
@@ -10,3 +13,4 @@ class Game(models.Model):
     age_rating = models.CharField(max_length=3, null=True, blank=True)
     likes = models.PositiveIntegerField(default=0)
     publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE, related_name='games', null=True)
+    platform = models.ManyToManyField(Platform, related_name='games')

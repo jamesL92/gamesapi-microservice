@@ -3,7 +3,7 @@ from django.test import TestCase
 # Create your tests here.
 class ViewTestCase(TestCase):
 
-    fixtures = ['game', 'publisher']
+    fixtures = ['game', 'publisher', 'platform']
 
     def test_retrieve_game_data_successful(self):
         response = self.client.get('/games/1/')
@@ -12,7 +12,8 @@ class ViewTestCase(TestCase):
             'description': 'For the first time ever in Uncharted history, drive vehicles during gameplay',
             'age_rating': '16',
             'likes': 100,
-            'by': 'Sony'
+            'by': 'Sony',
+            'platform': ['PS4']
         }
         actual = response.data
         self.assertDictEqual(expected, actual)

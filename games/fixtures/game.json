@@ -7,7 +7,8 @@
       "description": "For the first time ever in Uncharted history, drive vehicles during gameplay",
       "age_rating": "16",
       "likes": 100,
-      "publisher": 1
+      "publisher": 1,
+      "platform": [1]
     }
   }
 ]

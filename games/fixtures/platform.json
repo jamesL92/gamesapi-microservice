@@ -1,0 +1,9 @@
+[
+    {
+        "model": "games.Platform",
+        "pk": 1,
+        "fields": {
+            "name": "PS4"
+        }
+    }
+]

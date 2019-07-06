@@ -4,6 +4,8 @@ from .models import Game
 class GameSerializer(serializers.ModelSerializer):
 
     by = serializers.CharField(source='publisher.name')
+    platform = serializers.SlugRelatedField(many=True, read_only=True, slug_field='name')
+
     class Meta:
         model = Game
         fields = (
@@ -12,4 +14,5 @@ class GameSerializer(serializers.ModelSerializer):
             'by',
             'age_rating',
             'likes',
+            'platform',
         )

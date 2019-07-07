@@ -1,14 +1,13 @@
+from statistics import mean
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 
-# Create your models here.
 class Publisher(models.Model):
     name = models.CharField(max_length=30)
 
 class Platform(models.Model):
     name = models.CharField(max_length=20)
-
 
 class Game(models.Model):
     title = models.CharField(max_length=30)

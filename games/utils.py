@@ -1,6 +1,6 @@
 from math import ceil
 from django.contrib.auth.models import User
-from django.db.models import Count, Avg, Sum, F
+from django.db.models import Count, Avg, Sum
 from .models import Game
 
 def generate_game_report():

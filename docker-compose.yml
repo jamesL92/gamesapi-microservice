@@ -4,4 +4,4 @@ services:
     build: .
     image: gamesapi:latest
     ports:
-      - "8000:80"
+      - "8080:80"

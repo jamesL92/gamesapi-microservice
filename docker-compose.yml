@@ -1,0 +1,7 @@
+version: "3"
+services:
+  gamesapi:
+    build: .
+    image: gamesapi:latest
+    ports:
+      - "8000:80"

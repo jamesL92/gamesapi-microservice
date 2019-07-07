@@ -13,7 +13,8 @@ A microservice written in Django to display details about stored games.
 That's it!
 
 ## Running
-Simply run `docker-compose up`. Docker will take care of the rest for you.
+Ensure that docker is running.
+Run `docker-compose up`. Docker will take care of the rest for you.
 You can now access the microservice on `localhost:8080`
 
 ## About the app
@@ -30,4 +31,5 @@ such as using `curl` or Postman, ensure you add a trailing `/` to your endpoint
 (e.g. `http://localhost:8080/games/1/`). This is because Django is opinionated
 about having a trailing `/` on URIs; without it Django will return a `301` response instead.
 
-The seeded data can be found [here](./app/games/fixtures). After modifying the data, you will need to run `docker-compose up --build` to re-seed the data.
+The seeded data can be found [here](./app/games/fixtures). After modifying the data,
+you will need to run `docker-compose up --build` to re-seed the data.
